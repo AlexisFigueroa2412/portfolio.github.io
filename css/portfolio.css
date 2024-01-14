@@ -1,0 +1,511 @@
+.background-header{
+    background-image: url(../resources/CSA_1444.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 750px;
+    font-display: swap;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.background-dark{
+    background-color: #171720;
+}
+
+.background-gradient-dark{
+    background: linear-gradient(#212121, black);
+}
+
+.background-gradient-light{
+    background: linear-gradient(white, #E6E6E6);
+}
+.background-gradient-dark-card{
+    background: linear-gradient(#1C1C1C, #121212);
+}
+
+.background-gradient-dark-button{
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.background-gradient-dark-card:hover{
+    background: linear-gradient(#212121,#121212);
+}
+
+.background-gradient-dark-button:hover{
+    background: linear-gradient(white, #D1D9E6);
+}
+/*#1A1A1A*/
+
+.gradient-shadow{
+    box-shadow: 2px 2px 15px #D1D9E6, -2px -2px 15px #121212;
+}
+
+.header-title{
+    font-weight: bolder;
+}
+
+.header-subtext{
+    font-weight: lighter;
+}
+
+.goldie-text{
+    color: #C8AA8C;
+}
+
+.padding-container{
+    padding: 20px;
+}
+
+/*.padding-container:hover{
+    transition: all 0.3s ease-out;
+    transform: scale(1.1, 1.1);
+}*/
+.right{
+    padding-right: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.left-align{
+    text-align:left;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.aling-fixed{
+    text-align: justify;
+}
+
+.centered{
+    align-items: center;
+    vertical-align: middle;
+}
+.rounded{
+    border-radius: 20px;
+}
+.rounded-circle{
+    border-radius: 100%;
+}
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-gallery {
+    margin: 0.5rem 0 1rem 0;
+    background-color: whitesmoke;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.card-gallery-photo {
+    margin: 0.5rem 0 1rem 0;
+    background-color: whitesmoke;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.card-gallery-content {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 10px;
+    height: 100%;
+    width: auto;
+}
+.card-gallery-title{
+    font-size: 24px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-gallery .card-gallery-title {
+    color: #fff;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+    max-width: 100%;
+}
+.S1, .S2, .S3, .S4, .S5, .S6, .S7, .E1, .E2, .E3{
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.F1, .F2, .F3, .F4, .F5, .F6, .F7{
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.F1{
+    background-image: url(../resources/photografies/S1.jpg);
+    background-position: center;
+}
+.F2{
+    background-image: url(../resources/photografies/S2.jpg);
+    background-position: center;
+}
+.F3{
+    background-image: url(../resources/photografies/S3.jpg);
+    background-position: center;
+}
+.F4{
+    background-image: url(../resources/photografies/S4.jpg);
+    background-position: center;
+}
+.F5{
+    background-image: url(../resources/photografies/S5.jpg);
+    background-position: center;
+}
+.F6{
+    background-image: url(../resources/photografies/S6.jpg);
+    background-position: center;
+}
+.F7{
+    background-image: url(../resources/photografies/S7.jpg);
+    background-position: center;
+}
+.S1{
+    background-image: url(../resources/EAL.png);
+    background-position: center;
+}
+.S2{
+    background-image: url(../resources/S2.jpg);
+}
+.S3{
+    background-image: url(../resources/S3.jpg);
+}
+.S4{
+    background-image: url(../resources/S4.jpg);
+}
+.S5{
+    background-image: url(../resources/S5.jpg);
+}
+.S6{
+    background-image: url(../resources/S6.jpg);
+}
+.S7{
+    background-image: url(../resources/S7.jpg);
+}
+
+.E1{
+    background-image: url(../resources/UCA.png);
+    background-position: center;
+}
+.E2{
+    background-image: url(../resources/RICALDONE.png);
+    background-position: center;
+}
+.E3{
+    background-image: url(../resources/CSBR.png);
+    background-position: center;
+}
+.E4{
+    background-image: url(../resources/ACADEMIA\ EUROPEA.png);
+    background-position: center;
+    background-size: cover;
+}
+.E5{
+    background-image: url(../resources/DOMESTIKA.png);
+    background-position: center;
+    background-size: cover;
+}
+.E6{
+    background-image: url(../resources/DON\ BOSCO.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.S1:hover, .S2:hover, .S3:hover, .S4:hover, .S5:hover, .S6:hover, .S7:hover{
+    filter: blur(3px);
+    display: flex;
+    justify-content: space-between;
+}
+.E1:hover, .E2:hover, .E3:hover, .E4:hover, .E5:hover, .E6:hover{
+    transition: all 0.3s ease-out;
+    transform: scale(1.1, 1.1);
+}
+
+.D1{
+    background-image: url(../resources/Workpeople.png);
+    background-position: center;
+    background-size: cover;
+}
+.D2{
+    background-image: url(../resources/queen.png);
+    background-position: center;
+    background-size: cover;
+}
+.D3{
+    background-image: url(../resources/techoseguro.png);
+    background-position: center;
+    background-size: cover;
+}
+.D4{
+    background-image: url(../resources/Logo\ facti.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D5{
+    background-image: url(../resources/Studium.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D6{
+    background-image: url(../resources/speedAutoservice.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D7{
+    background-image: url(../resources/Adarve.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D8{
+    background-image: url(../resources/EAL.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D9{
+    background-image: url(../resources/california\ sktb.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D10{
+    background-image: url(../resources/GeoPanels.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+.D11{
+    background-image: url(../resources/sagi.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+
+.D1:hover, .E2:hover, .E3:hover, .E4:hover, .E5:hover, .E6:hover{
+    transition: all 0.3s ease-out;
+    transform: scale(1.1, 1.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.C1{
+    background-image: url(../resources/Cast_ZLG.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+
+.collage{
+    width:100%;
+    vertical-align: middle;
+    transition: all 0.3s ease-out;
+    position: relative;
+    box-shadow: 1px #212121;
+
+}
+.collage:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.circle-img {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 190px;
+  width: 100%;
+  color: #bbb;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.circle {
+    padding: 10px;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.circle-out {
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+  
+.img-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.circle-img *,
+.circle-img:before,
+.circle-img:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.circle-img:before,
+.circle-img:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #bbb;
+  border-color: transparent #bbb;
+}
+
+.circle-img img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.circle-img figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.circle-img i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.circle-img a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.circle-img:hover figcaption,
+.circle-img.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.circle-img:hover:before,
+.circle-img.hover:before,
+.circle-img:hover:after,
+.circle-img.hover:after {
+  border-width: 10px;
+}
+
+.circle-img:hover:before,
+.circle-img.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.circle-img:hover:after,
+.circle-img.hover:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.badge-nav {
+    height: 8px;
+    width: 8px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: rgb(152, 151, 151);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.badge-text {
+    color: black;
+    padding: 8px 8px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    text-size-adjust: 50%;
+}
+
+@media (max-width:700px) {
+    .card-gallery-photo {
+        height: 250px;
+    }
+}

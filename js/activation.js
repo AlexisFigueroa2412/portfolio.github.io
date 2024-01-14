@@ -1,0 +1,8 @@
+M.AutoInit();
+
+var instance = M.Collapsible.getInstance(elem);
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
