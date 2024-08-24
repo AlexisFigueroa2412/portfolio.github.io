@@ -335,7 +335,14 @@
     background-size: cover;
 }
 
-.D1:hover, .E2:hover, .E3:hover, .E4:hover, .E5:hover, .E6:hover{
+.D12{
+    background-image: url(../resources/Mocca.png);
+    background-position: center;
+    background-size: cover;
+    background-size: cover;
+}
+
+.E1:hover, .E2:hover, .E3:hover, .E4:hover, .E5:hover, .E6:hover{
     transition: all 0.3s ease-out;
     transform: scale(1.1, 1.1);
     display: flex;
